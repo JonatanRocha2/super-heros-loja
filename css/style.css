@@ -93,6 +93,11 @@ button {
   margin-right: auto;
 }
 
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 button.circle-button {
   position: fixed;
   border-radius: 100%;
@@ -136,7 +141,7 @@ footer {
 
 /* Login */
 
-section {
+section.conteiner-login {
   width: 100%;
   padding: 50px;
   text-align: center;
@@ -158,12 +163,12 @@ section input {
 }
 
 section p {
-    margin: 10px;
+  margin: 10px;
 }
 
 section form p a {
-    text-decoration: none;
-    color: #00669f;
+  text-decoration: none;
+  color: #00669f;
 }
 
 button.login {
@@ -178,23 +183,72 @@ button.login {
 }
 
 div.btn {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 
 button.clear {
-    background-color: #888888;
-    border-radius: 15px;
-    border: none;
+  background-color: #888888;
+  border-radius: 15px;
+  border: none;
 }
 
 button.register {
-    background-color: #1cd1b0;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    color: #000000;
+  background-color: #1cd1b0;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* details */
+
+section.details {
+  background: url(../img/bg\ 1.svg);
+  width: 100%;
+  padding: 10px;
+}
+
+div.card-datail {
+  position: relative;
+  width: 540px;
+  height: 600px;
+  border-radius: 30px;
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+img.icon-detail {
+  border-radius: 100%;
+}
+
+img.fav-datail {
+  margin-left: 15px;
+}
+
+div.card-datail h2 {
+  color: #2c0187;
+}
+
+p.description span {
+  color: #2c0187;
+}
+
+.btn-detail {
+  background-color: #2c0187;
+  width: 540px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  margin-top: 15px;
+}
+
+.btn-detail a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media (max-width: 460px) {

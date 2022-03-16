@@ -1,75 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Registro</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="bar-discount">
-        <p>20% de descontos em todos os produtos!</p>
+      <p>20% de descontos em todos os produtos!</p>
+    </div>
+
+    <header class="super-herois">
+      <img src="img/logo.svg" alt="" />
+      <h1>Compre aqui seu card de Super Heróis!</h1>
+    </header>
+
+    <section>
+      <div>
+        <h1>Registro</h1>
       </div>
-  
-      <header class="super-herois">
-        <img src="img/logo.svg" alt="" />
-        <h1>Compre aqui seu card de Super Heróis!</h1>
-      </header>
 
-      <section>
-
-        <div>
-            <h1>Registro</h1> 
+      <form action="">
+        <p>
+          <label for="nome"></label>
+          <input type="text" placeholder="Nome e sobrenome" />
+        </p>
+        <p>
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+        </p>
+        <p>
+          <label for="senha"> </label>
+          <input type="password" name="senha" id="senha" placeholder="Senha" />
+        </p>
+        <p>
+          <select name="paises" id="">
+            <optgroup>
+              <option value="1" selected>Selecione o País</option>
+              <option value="2">Brasil</option>
+              <option value="3">Argentina</option>
+              <option value="4">Portugal</option>
+              <option value="5">EUA</option>
+              <option value="6">Chile</option>
+              <option value="7">Canadá</option>
+            </optgroup>
+          </select>
+        </p>
+        <div class="btn">
+          <p>
+            <button class="clear" type="reset">Limpar</button>
+          </p>
+          <p>
+            <button class="register" type="submit">Registrar</button>
+          </p>
         </div>
-         
-        <form action="">
-            <p>
-                <label for="nome"></label>
-                <input type="text" placeholder="Nome e sobrenome">
-            </p>
-            <p>
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="E-mail">
-            </p>
-            <p>
-                <label for="senha"> </label>
-                <input type="password" name="senha" id="senha" placeholder="Senha">               
-            </p>
-            <p>
-                <select name="paises" id="">
-                    <optgroup>
-                        <option value="1" selected>Selecione o País</option>
-                        <option value="2">Brasil</option>
-                        <option value="3">Argentina</option>
-                        <option value="4">Portugal</option>
-                        <option value="5">EUA</option>
-                        <option value="6">Chile</option>
-                        <option value="7">Canadá</option>
-                    </optgroup>
 
-                </select>
-            </p>
-            <div class="btn">
-                <p>
-                    <button class="clear" type="reset">Limpar</button>
-                </p>
-                <p>
-                    <button class="register" type="submit">Registrar</button>
-                </p>
-            </div>
-            
-            <p>Já possui uma conta? <a href="login.html">Entrar</a></p>
-            <p>Voltar ao início? <a href="index.html">Clique aqui!</a></p>
-            
-        </form>
+        <p>Já possui uma conta? <a href="login.html">Entrar</a></p>
+        <p>Voltar ao início? <a href="index.html">Clique aqui!</a></p>
+      </form>
+    </section>
 
-      </section>
-
-      <footer>
-        <p>Todos os direitos reservados a Front-End I</p>
-      </footer>
-    
-</body>
+    <footer>
+      <p>Todos os direitos reservados a Front-End I</p>
+    </footer>
+  </body>
 </html>
