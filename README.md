@@ -1,5 +1,5 @@
 # Mesas de Trabalho
-## Aulas 14, 15, 16 e 17
+## Aulas 10; 14; 16 e 17
 
 **Objetivo**
 
@@ -9,7 +9,12 @@ Nesta oportunidade, usaremos uma ferramenta chamada Figma de onde poderemos obte
 
 Boa sorte! 😎👍✨ 
 
-**Desafio:**
+**Desafios:**
+
+* [Aula 10](https://www.figma.com/file/JJduGYhIo0wCvrTVKvn4TR/Front-end-Aula10-ModelosDeCaixa?node-id=0%3A1)
+* [Aula 14](https://www.figma.com/file/oTEHDjtpyGUgSyY39fmW5P/Front-end-Aula14-Design-Adaptativo?node-id=0%3A1)
+* [Aula 16](https://www.figma.com/file/VkTG9KdHABiy7DOwkXmkMa/Front-end-Aula16-Ecommerce?node-id=59%3A2)
+* [Aula 17](https://www.figma.com/file/PagY0AXiwz3hCUqcGmOil5/Formulario-ll?node-id=0%3A1)
 
 
   
