@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+div.bar-discount {
+  background: #1cd1b0;
+  padding: 5px;
+}
+
+div.bar-discount p {
+  text-align: start;
+  color: #000000;
+  font-weight: bold;
+}
+
+header.super-herois {
+  display: flex;
+  align-items: center;
+  background: #00669f;
+  padding: 20px;
+}
+
+header.super-herois h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+nav.menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  background-color: #001d2d;
+  padding: 10px;
+  font-size: 14px;
+}
+
+nav.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+section.conteiner-pai {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+section div.card {
+  position: relative;
+  width: 374px;
+  height: 600px;
+  border-radius: 30px;
+  background: #f3f3f3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+p.description {
+  text-align: justify;
+  margin: 30px;
+  height: 140px;
+}
+
+button {
+  text-align: center;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  background-color: #00669f;
+  padding: 15px;
+  color: #f3f3f3;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button.circle-button {
+  position: fixed;
+  border-radius: 100%;
+  border: #000000;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  background: #00669f;
+  margin-left: 90vw;
+  margin-top: 40vh;
+}
+
+img.background {
+  width: 374px;
+  height: 217.81px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+img.hero {
+  border-radius: 100%;
+  position: absolute;
+  left: 130px;
+  top: 150px;
+  width: 135.43px;
+  height: 133.17px;
+}
+
+img.fav {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+footer {
+  background-color: #00669f;
+  color: #f3f3f3;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Login */
+
+section.conteiner-login {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+section div h1 {
+  font-size: 72px;
+  color: #333333;
+  font-weight: bold;
+}
+
+section input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+}
+
+section p {
+  margin: 10px;
+}
+
+section form p a {
+  text-decoration: none;
+  color: #00669f;
+}
+
+button.login {
+  background-color: #1cd1b0;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+div.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button.clear {
+  background-color: #888888;
+  border-radius: 15px;
+  border: none;
+}
+
+button.register {
+  background-color: #1cd1b0;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* details */
+
+section.details {
+  background: url(../img/bg\ 1.svg);
+  width: 100%;
+  padding: 10px;
+}
+
+div.card-datail {
+  position: relative;
+  width: 540px;
+  height: 600px;
+  border-radius: 30px;
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+img.icon-detail {
+  border-radius: 100%;
+}
+
+img.fav-datail {
+  margin-left: 15px;
+}
+
+div.card-datail h2 {
+  color: #2c0187;
+}
+
+p.description span {
+  color: #2c0187;
+}
+
+.btn-detail {
+  background-color: #2c0187;
+  width: 540px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  margin-top: 15px;
+}
+
+.btn-detail a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 460px) {
+  /* smartphone */
+  footer p {
+    font-size: 7.6px;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  div.bar-discount {
+    font-size: 10px;
+  }
+
+  header.super-herois h1 {
+    font-size: 15px;
+  }
+
+  nav.menu {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+/* adicionarCard */
+
+div.adicionarCard {
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f3f3f3;
+  background-color: #00669f;
+}
+
+div.adicionarCard h1 {
+  text-align: center;
+}
+
+div.adicionarCard p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* flex-direction: column; */
+}
+
+label {
+  display: block;
+  margin: 4px;
+}
+
+
+/* input {
+  border-radius: 5px;
+  border: none;
+  width: 100%;    
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+select {
+  border-radius: 5px;
+  border: none;
+  width: 100%;    
+  font-size: 0.8rem;
+  padding: 5px;
+} */
