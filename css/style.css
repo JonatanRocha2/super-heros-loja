@@ -275,47 +275,53 @@ p.description span {
 
 /* adicionarCard */
 
-div.add-card {
-  border: solid 1px black;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #00669f;
-  color: white;
+div.adicionarCard {
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-radius: 15px;
+  color: #f3f3f3;
+  background-color: #00669f;
 }
 
-div.dados-card {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  padding: 10px;
+div.adicionarCard h1 {
+  text-align: center;
 }
 
-div.dados-card form {
+div.adicionarCard p {
+  text-align: center;
+}
+
+form {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   gap: 20px;
+  /* flex-direction: column; */
 }
 
-div.dados-card label {
+label {
   display: block;
-  margin-bottom: 2px;
+  margin: 4px;
 }
 
-div.dados-card input {
+
+/* input {
   border-radius: 5px;
-  width: 50%;
+  border: none;
+  width: 100%;    
   font-size: 0.8rem;
   padding: 5px;
 }
 
-
+select {
+  border-radius: 5px;
+  border: none;
+  width: 100%;    
+  font-size: 0.8rem;
+  padding: 5px;
+} */
